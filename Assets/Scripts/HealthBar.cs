@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     private float _damage = 5f;
+    private static float _current;
 
+    public float maxHealth = 100;
     public static Image healthBar;
 
     // Start is called before the first frame update

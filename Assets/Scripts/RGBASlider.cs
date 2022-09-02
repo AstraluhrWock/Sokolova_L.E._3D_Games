@@ -17,11 +17,11 @@ public class RGBASlider : MonoBehaviour
         color.r = LabelSlider(screenRect, color.r, 1.0f, 5.0f, "Red");
         screenRect.y += 1;
         color.g = LabelSlider(screenRect, color.g, 1.0f, 5.0f, "Green");
-        screenRect.y += 1;
+        screenRect.y += 10;
         color.b = LabelSlider(screenRect, color.g, 1.0f, 5.0f, "Blue");
-        screenRect.y += 1;
+        screenRect.y += 20;
         color.a = LabelSlider(screenRect, color.a, 1.0f, 5.0f, "Transparency");
-        screenRect.y += 1;
+        screenRect.y += 30;
         return color;
     }
 
